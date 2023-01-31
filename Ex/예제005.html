@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예제005</title>
+</head>
+<body>
+    <div>
+        <h2>회원가입</h2>
+        <form>
+            아이디 <input type="text"><br>
+            이름 <input type="text"><br>
+            비밀번호 <input type="password"><br>
+            비밀번호 확인 <input type="password"><br>
+            전화번호 <input type="tel" placeholder="010-1234-1234"><br>
+            이메일 <input type="email"> @
+            <select>
+                <option>이메일 주소를 입력하세요</option>
+                <option>직접입력</option>
+                <option>naver.com</option>
+                <option>hanmail.net</option>
+                <option>gmail.com</option>
+            </select>
+            <br>
+            문자수신 여부 
+            예 <input type="radio" value="예" name="msg" checked>
+            아니오 <input type="radio" value="아니오" name="msg" checked>
+            <br>
+            가입경로 
+            <input type="checkbox" value="친구소개" name="root"> 친구소개
+            <input type="checkbox" value="인터넷 검색" name="root"> 인터넷 검색
+            <input type="checkbox" value="블로그" name="root"> 블로그
+            <input type="checkbox" value="기타" name="root"> 기타
+            <br>
+            <input type="submit" value="확인">
+        </form>
+    </div>
+    <div>
+        <h2>전화번호 입력</h2>
+        <form>
+            이름 : <input type="text"><br>
+            전화번호 : <input type="tel"><br><br>
+            <input type="submit" value="저장하기">
+            <input type="button" value="중복확인">
+            <input type="reset" value="다시쓰기">
+        </form>
+    </div>
+    <div>
+        <h2>체크 박스</h2>
+        <p>TV에서 즐겨보는 분야는 ?</p>
+        <form>
+            <input type="checkbox" value="뉴스" name="TV" checked> 뉴스
+            <input type="checkbox" value="드라마" name="TV" checked> 드라마
+            <input type="checkbox" value="스포츠" name="TV"> 스포츠
+            <input type="checkbox" value="엔터테인먼트" name="TV" checked> 엔터테인먼트
+            <input type="checkbox" value="기타" name="TV"> 기타
+        </form>
+    </div>
+    <div>
+        <h2>라디오 버튼</h2>
+        <form>
+            이메일 수신 : 
+            <input type="radio" value="예" name="msg2"> 예
+            <input type="radio" value="아니오" name="msg2"> 아니오
+        </form>
+    </div>
+</body>
+</html>
